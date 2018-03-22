@@ -3,14 +3,13 @@ dir = os.path.dirname(os.path.realpath(__file__))
 
 Graph=eval(open(dir+"\close.txt").read())
 Hur=(eval(open(dir+"\heuristic.txt").read()))
-Hur=dict(sorted(Hur.items(),key=lambda x:x[1],reverse=True))
+
 class node:    
     def __init__(self,n=None,prev=None):
         self.name=n
         self.prev=prev
         self.value=Hur[self.name]
 CLOSED={}
-way=[] 
 start,goal=input("Enter the start and goal:")
 start=start.upper()
 goal=goal.upper()
