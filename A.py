@@ -25,8 +25,6 @@ CLOSED={}
 start,goal=input("Enter the start and goal no space:")
 start=start.upper()
 goal=goal.upper()
-print(type(start))
-goal.upper()
 current=node(start)
 OPEN={}
 l={current.name:current}
