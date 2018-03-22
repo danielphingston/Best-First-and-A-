@@ -22,7 +22,6 @@ class node:
         self.path=s1+wt
 
 CLOSED={}
-way=[] 
 start,goal=input("Enter the start and goal no space:")
 start=start.upper()
 goal=goal.upper()
