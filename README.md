@@ -1,7 +1,7 @@
 # Best-First-and-A-
 store path values in path
 
-neighbours in near and
+neighbours in close and
 
 node values in heuristic
 
