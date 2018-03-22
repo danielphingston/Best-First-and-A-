@@ -5,7 +5,7 @@ Graph=eval(open(dir+"\close.txt").read())
 Hur=(eval(open(dir+"\heuristic.txt").read()))
 path=(eval(open(dir+"\path.txt").read()))
 
-Hur=dict(sorted(Hur.items(),key=lambda x:x[1],reverse=True))
+
 class node:    
     def __init__(self,n=None,prev=None,path=0):
         self.name=n
